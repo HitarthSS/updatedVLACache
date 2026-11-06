@@ -1,0 +1,136 @@
+{
+  "documented_model_configuration": [
+    "openvla/openvla-7b-finetuned-libero-spatial at 962318cec55ac10993ff0f5f43eda9a270b4c873, original BF16 weights.",
+    "Exact processor source, modified Transformers revision and LIBERO revisions are recorded in provenance."
+  ],
+  "model": {
+    "anonymous_download": true,
+    "files": [
+      {
+        "lfs_verified": false,
+        "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1",
+        "size": 21
+      },
+      {
+        "lfs_verified": false,
+        "sha256": "a2de1404c39c5608cc11917904ec610bf55a35b670b02db2ad71efb04a80b39e",
+        "size": 3508
+      },
+      {
+        "lfs_verified": false,
+        "sha256": "7636449e2a70f48b42713237c57031bb95a6df1dfd81ef913d756d7d2626b1df",
+        "size": 2109
+      },
+      {
+        "lfs_verified": false,
+        "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1",
+        "size": 136
+      },
+      {
+        "lfs_verified": true,
+        "sha256": "094ba8d798d0e13152230897e893d4d12ca3fe11ddb218f27545b1e6e7536134",
+        "size": 4925122448
+      },
+      {
+        "lfs_verified": true,
+        "sha256": "086780bb21b61eee9fb54acc0b938017c599e9d741bcdda18da23c4617fa36d7",
+        "size": 4947392496
+      },
+      {
+        "lfs_verified": true,
+        "sha256": "d696e042cf49abd0b5846e73cbd4931d75a5467ae44857bf8e54a90ed6588308",
+        "size": 4947417456
+      },
+      {
+        "lfs_verified": true,
+        "sha256": "234f92229d4055749c17e904e4d3f1c9a9af3eb13f96f14eaaa4530c0c376473",
+        "size": 262668432
+      },
+      {
+        "lfs_verified": false,
+        "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659",
+        "size": 94764
+      },
+      {
+        "lfs_verified": false,
+        "sha256": "52ca6dd7fb31a2757658f94775b659553bc3532ab04babef02779387b3dec214",
+        "size": 1690
+      },
+      {
+        "lfs_verified": false,
+        "sha256": "cb90ee5cf5793aa444039af9795b00db59d3fef8942e7eca9cf1990bab370d61",
+        "size": 552
+      },
+      {
+        "lfs_verified": false,
+        "sha256": "8f5e2869e1807b8bb3c7717a294539c37e9de5d728ad60e31ef57e83cc5ea527",
+        "size": 1842976
+      },
+      {
+        "lfs_verified": true,
+        "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+        "size": 499723
+      },
+      {
+        "lfs_verified": false,
+        "sha256": "0d9176185eb68a54a7be757961c1957b979920cc81339c4def0202dae5b602bc",
+        "size": 1212
+      }
+    ],
+    "model": "openvla/openvla-7b-finetuned-libero-spatial",
+    "paid_api_calls": 0,
+    "revision": "962318cec55ac10993ff0f5f43eda9a270b4c873"
+  },
+  "parameter_sha256": "ff1d9a4fcd274583302ea1562df54a7598e4b0f08f969fff235ed1103e2161a6",
+  "processor": {
+    "anonymous_download": true,
+    "filename": "processing_prismatic.py",
+    "repo": "openvla/openvla-7b",
+    "revision": "47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+    "sha256": "06563586bbc73d36501a14a231a3174904ede830d33174d0c625ece8e931ef1e"
+  },
+  "protocol": {
+    "candidates": [
+      "event_refresh",
+      "anchor_ttl",
+      "stall_refresh"
+    ],
+    "control_horizon": 220,
+    "dev_init_indices": [
+      40
+    ],
+    "environment_seed": 0,
+    "external_tokens": 0,
+    "final_arms": [
+      "bare",
+      "authors",
+      "mine"
+    ],
+    "final_init_indices": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "maximum_physical_actions": 230,
+    "model_seed": 7,
+    "paid_api_calls": 0,
+    "settling_actions": 10,
+    "suite": "libero_spatial"
+  },
+  "repositories": {
+    "LIBERO": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+    "transformers": "2302fce58afa3a4f8461625b1394f9e9c8a7f1ea",
+    "upstream": "a4909880573868dee2769343d52e793c0341678b"
+  },
+  "selected_method": "stall_refresh",
+  "weights_included": false
+}

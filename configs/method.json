@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "execution_monitoring",
+    "contact_feedback",
+    "uncertainty_compute"
+  ],
+  "entrypoint": "my_harness.py",
+  "horizon": "220 controlled actions plus ten native setup no-ops; no multiplier.",
+  "models": [
+    "openvla/openvla-7b-finetuned-libero-spatial at 962318cec55ac10993ff0f5f43eda9a270b4c873, original BF16 weights.",
+    "Exact processor source, modified Transformers revision and LIBERO revisions are recorded in provenance."
+  ],
+  "paid_api_calls_required": 0,
+  "scope": "Ten reported Spatial tasks, twelve official starts each (indices 20\u201331); bare-policy control 102/120. Separate development index 40.",
+  "trainable_parameters": 0
+}

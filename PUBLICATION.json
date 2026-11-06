@@ -1,0 +1,10 @@
+{
+  "description": "My harness for VLA-Cache \u2014 stall-triggered refresh; frozen-policy source, integration notes, horizons and qualified pilot results.",
+  "existing_repository": false,
+  "main_entrypoint": "my_harness.py",
+  "new_visibility": "private",
+  "owner": "HitarthSS",
+  "paper": "https://arxiv.org/abs/2502.02175",
+  "repository": "updatedVLACache",
+  "requires_paid_api": false
+}

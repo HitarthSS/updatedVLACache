@@ -1,0 +1,32 @@
+{
+  "excluded_from_self_hash": [
+    ".gitignore",
+    "provenance/export.json",
+    "provenance/validation.json"
+  ],
+  "files": {
+    "EVALUATION.md": "de2e2caca840b227967910fec03d6ab12115cfad9dc0cec5c17d57737f76b9d7",
+    "LICENSE": "bdad4c6087a3fea4f50fe2eb8bca565d5b25321eca79415ba015a23c99b7a6a2",
+    "NOTICE.md": "a22c912899ecb29bd46b317b222047b20c78b156a6da61b9fbf1c3bbfc66e653",
+    "PUBLICATION.json": "6a7131cefb30771fc07754995e616d129ef91f4512d3941bcdff773404ace8b5",
+    "README.md": "62a9b555a2c2cd94afa3008a471bbc06d57ec126d8fd689c93c8aeceb3c42dd8",
+    "configs/method.json": "c348c60c0078e10fbe0d6d3d76479cbb4bb00df400a9e35af15bbb1caa9b8389",
+    "docs/INTEGRATION.md": "c8b18352126cfa56bcaa0e2e8e652bc7ecc5e4fd0fb9406c6d721f69ba38fdc7",
+    "licenses/UPSTREAM-LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "my_harness.py": "bc941d53cc58253fb5261f1917251350264f51c8554eac57f7a941a1f71b0e35",
+    "provenance/evaluated-models.json": "71af780cee5e8b62be71ce76c86719e7395f2e7051cc47cfa9bf25f3e97f270f",
+    "provenance/original-source-hashes.json": "be702b8869c5cd5a418836f84050b7b28790cdbd06e6bb521b87ee32e86e28ba",
+    "provenance/upstream.json": "afb34e4063539286b30c146d979a49bafed9ef3aa69b7f42a639bcc1b46574aa",
+    "reference/README.md": "73710e43ecb9584b021e55f76d9c08dd8acb72b19fad54cc439149cd05be9403",
+    "reference/experiment.py": "08017b003f38a0cea446ae7889aeed3bf8711ac3c212885a7e61ecbd14bf9e4f",
+    "reference/launch.py": "ecbf8e90cff13e985b96445daae59b39264e5f32b036a6f096deb00b69b9ffe9",
+    "reference/rendering.py": "ca3f8bdb252af3000756673ee54db71b18c16adfcff9147d81846f47bf2bf8b3",
+    "reference/runtime.py": "457993b5d5ebc257977c28ca989d9e8a149bef2ca43795ae4866dbc7862a7774",
+    "reference/setup_remote.py": "b62e8901ce2191abf6dcfb0a8d38e1e27e9626f05446716af4a4facc772a8b9e",
+    "results/interpretation.json": "0cdab06cf7ee09e7f8668db1f385b49ec6937cfaeefb1a7f5e2802805aed8afe",
+    "results/summary.json": "0dae9c6e9ae7988b54bb0da38751575aa5ca3aa16d5def5dc7f71ea2dbb20b34",
+    "tests/test_controller.py": "411b96bdd1e9e554ad84d6d305271ed759505a2b11f5635a61fb0a08c567eaa6",
+    "tools/verify_export.py": "c0f2a4ad4b66c20d59111f7a4005ac44d8ba4b795806cd8d8125fdff185bca2e"
+  },
+  "note": "Only exported files are covered. Existing upstream files are preserved. .gitignore is merged on the two existing repositories."
+}

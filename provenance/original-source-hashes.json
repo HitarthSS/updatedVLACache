@@ -1,0 +1,40 @@
+{
+  "note": "Source collection hashes; exported locations may differ. Core algorithms are copied without behavior changes.",
+  "source_files": [
+    {
+      "bytes": 4602,
+      "file": "my_harness.py",
+      "sha256": "bc941d53cc58253fb5261f1917251350264f51c8554eac57f7a941a1f71b0e35"
+    },
+    {
+      "bytes": 10392,
+      "file": "runtime.py",
+      "sha256": "457993b5d5ebc257977c28ca989d9e8a149bef2ca43795ae4866dbc7862a7774"
+    },
+    {
+      "bytes": 5133,
+      "file": "rendering.py",
+      "sha256": "ca3f8bdb252af3000756673ee54db71b18c16adfcff9147d81846f47bf2bf8b3"
+    },
+    {
+      "bytes": 18539,
+      "file": "experiment.py",
+      "sha256": "08017b003f38a0cea446ae7889aeed3bf8711ac3c212885a7e61ecbd14bf9e4f"
+    },
+    {
+      "bytes": 2214,
+      "file": "launch.py",
+      "sha256": "ecbf8e90cff13e985b96445daae59b39264e5f32b036a6f096deb00b69b9ffe9"
+    },
+    {
+      "bytes": 6188,
+      "file": "setup_remote.py",
+      "sha256": "b62e8901ce2191abf6dcfb0a8d38e1e27e9626f05446716af4a4facc772a8b9e"
+    },
+    {
+      "bytes": 11357,
+      "file": "licenses/UPSTREAM-LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ]
+}

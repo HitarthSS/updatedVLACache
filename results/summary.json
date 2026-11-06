@@ -1,0 +1,93 @@
+{
+  "authors": {
+    "control_steps": 14750,
+    "decode_token_layers": 2832000.0,
+    "decoder_cuda_ms": 1131280.9592056274,
+    "decoder_flops": 2.103648822358835e+16,
+    "empty_mask_full_refresh": 0.0,
+    "episodes": 120,
+    "external_tokens": 0,
+    "full_policy_wall_seconds": 5246.569102448411,
+    "horizon_violations": 0,
+    "input_tokens": 4251508.0,
+    "output_action_tokens": 103250,
+    "paid_api_calls": 0,
+    "physical_steps": 15950,
+    "policy_calls": 14750,
+    "policy_seconds": 5243.64949683845,
+    "prefill_token_layers": 103028036.0,
+    "simulator_seconds": 404.4214915386401,
+    "success_percent": 85.83333333333333,
+    "successes": 103,
+    "wall_seconds": 6397.201263787691
+  },
+  "bare": {
+    "control_steps": 14897,
+    "decode_token_layers": 2860224.0,
+    "decoder_cuda_ms": 1239375.194847107,
+    "decoder_flops": 2.813128410005504e+16,
+    "empty_mask_full_refresh": 0.0,
+    "episodes": 120,
+    "external_tokens": 0,
+    "full_policy_wall_seconds": 5314.922120281495,
+    "horizon_violations": 0,
+    "input_tokens": 4293825.0,
+    "output_action_tokens": 104279,
+    "paid_api_calls": 0,
+    "physical_steps": 16097,
+    "policy_calls": 14897,
+    "policy_seconds": 5253.516948815901,
+    "prefill_token_layers": 137402400.0,
+    "simulator_seconds": 408.18516611587256,
+    "success_percent": 85.0,
+    "successes": 102,
+    "wall_seconds": 6465.302276369184
+  },
+  "completed_episodes": 360,
+  "completed_matched_cases": 120,
+  "evaluation_scope": "10 reported LIBERO-Spatial tasks x 12 released initial states, smaller than the 50/task default",
+  "full_paper_reproduction": false,
+  "matched_initials": true,
+  "mine": {
+    "control_steps": 14661,
+    "decode_token_layers": 2814912.0,
+    "decoder_cuda_ms": 1135194.4292564392,
+    "decoder_flops": 2.0959299414278144e+16,
+    "empty_mask_full_refresh": 0.0,
+    "episodes": 120,
+    "external_tokens": 0,
+    "full_policy_wall_seconds": 5270.220906128641,
+    "horizon_violations": 0,
+    "input_tokens": 4225812.0,
+    "output_action_tokens": 102627,
+    "paid_api_calls": 0,
+    "physical_steps": 15861,
+    "policy_calls": 14661,
+    "policy_seconds": 5262.845082520973,
+    "prefill_token_layers": 102647498.0,
+    "simulator_seconds": 404.5914556244388,
+    "success_percent": 86.66666666666667,
+    "successes": 104,
+    "wall_seconds": 6421.802194715943
+  },
+  "paired": {
+    "difference_pp": 0.8333333333333334,
+    "episode_bootstrap_95_pp": [
+      0.0,
+      2.5
+    ],
+    "harmed": 0,
+    "helped": 1,
+    "mcnemar_exact_p": 1.0,
+    "task_cluster_bootstrap_95_pp": [
+      0.0,
+      2.5
+    ]
+  },
+  "paper_claims_spatial": {
+    "authors_cache_percent": 83.8,
+    "bare_policy_percent": 84.4
+  },
+  "selected_method": "stall_refresh",
+  "shared_gpu_timing_is_descriptive": true
+}
